@@ -1,4 +1,44 @@
-/.env
-/.vscode
-/tmp
-/tokens.db
+# Binaries
+bin/
+main
+WebNotes-backend
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test outputs
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Modules
+vendor/
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Air (Live reload) temporaries
+tmp/
+
+# OS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local Database
+*.db
+*.sqlite
+*.sqlite3
